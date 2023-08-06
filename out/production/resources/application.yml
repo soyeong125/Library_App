@@ -1,10 +1,4 @@
 spring:
-<<<<<<< HEAD
-  datasource:
-    url: "jdbc:mysql://localhost/library"
-    username: "root"
-    password: "1234"
-=======
   config:
     activate:
       on-profile: local
@@ -34,7 +28,6 @@ spring:
     url: "jdbc:mysql://localhost/library"
     username: "root"
     password: ""
->>>>>>> f34a76a4d4726c82cd5de0bf452e7c0ae8848ea0
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -44,7 +37,3 @@ spring:
         show_sql: true
         format_sql: true
         dialect: org.hibernate.dialect.MySQL8Dialect
-<<<<<<< HEAD
-
-=======
->>>>>>> f34a76a4d4726c82cd5de0bf452e7c0ae8848ea0

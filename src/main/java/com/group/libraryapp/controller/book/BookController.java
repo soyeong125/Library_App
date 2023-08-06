@@ -4,16 +4,6 @@ import com.group.libraryapp.dto.book.request.BookCreateRequest;
 import com.group.libraryapp.dto.book.request.BookLoanRequest;
 import com.group.libraryapp.dto.book.request.BookReturnRequest;
 import com.group.libraryapp.service.book.BookService;
-<<<<<<< HEAD
-import org.springframework.web.bind.annotation.*;
-
-@RestController
-public class BookController {
-
-    private final BookService bookService;
-
-    public BookController(BookService bookService) {
-=======
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,7 +14,6 @@ public class BookController {
     private final BookService bookService;
 
     public BookController(BookService bookService){
->>>>>>> f34a76a4d4726c82cd5de0bf452e7c0ae8848ea0
         this.bookService = bookService;
     }
 
@@ -39,12 +28,5 @@ public class BookController {
     }
 
     @PutMapping("/book/return")
-<<<<<<< HEAD
-    public void returnBook(@RequestBody BookReturnRequest request){
-        bookService.returnBook(request);
-    }
-
-=======
     public void returnBook(@RequestBody BookReturnRequest request){bookService.returnBook(request);}
->>>>>>> f34a76a4d4726c82cd5de0bf452e7c0ae8848ea0
 }
