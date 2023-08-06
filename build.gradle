@@ -1,19 +1,30 @@
 plugins {
+<<<<<<< HEAD
 	id 'org.springframework.boot' version '3.0.1'
+=======
+	id 'org.springframework.boot' version '2.7.6'
+>>>>>>> f34a76a4d4726c82cd5de0bf452e7c0ae8848ea0
 	id 'io.spring.dependency-management' version '1.0.12.RELEASE'
 	id 'java'
 }
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
+<<<<<<< HEAD
 sourceCompatibility = '17'
+=======
+sourceCompatibility = '11'
+>>>>>>> f34a76a4d4726c82cd5de0bf452e7c0ae8848ea0
 
 repositories {
 	mavenCentral()
 }
 
 dependencies {
+<<<<<<< HEAD
 	implementation 'org.projectlombok:lombok'
+=======
+>>>>>>> f34a76a4d4726c82cd5de0bf452e7c0ae8848ea0
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	runtimeOnly 'com.h2database:h2'
